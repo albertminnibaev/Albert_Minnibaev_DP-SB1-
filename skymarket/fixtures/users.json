@@ -1,72 +1,47 @@
 [
-  {
-    "model": "users.user",
-    "pk": 1,
-    "fields": {
-      "email": "test@skypro.ru",
-      "password":"pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
-      "last_login": "2022-02-20 13:34:16.332479+03:00",
-      "phone": "+79217777777",
-      "role": "user",
-      "first_name":"Иван",
-      "last_name": "Иванов",
-      "is_active": true
-    }
-  },
-  {
-    "model": "users.user",
-    "pk": 2,
-    "fields": {
-      "email": "test2@skypro.ru",
-      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
-      "last_login": "2022-02-20 13:34:16.332479+03:00",
-      "phone": "+79218888888",
-      "role": "user",
-      "first_name":"Петр",
-      "last_name": "Петров",
-      "is_active": true
-    }
-  },
-    {
-    "model": "users.user",
-    "pk": 3,
-    "fields": {
-      "email": "test3@skypro.ru",
-      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
-      "last_login": "2022-02-20 13:34:16.332479+03:00",
-      "phone": "+7999999999",
-      "role": "user",
-      "first_name":"Петр",
-      "last_name": "Петров",
-      "is_active": true
-    }
-  },
-    {
-    "model": "users.user",
-    "pk": 4,
-    "fields": {
-      "email": "test4@skypro.ru",
-      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
-      "last_login": "2022-02-20 13:34:16.332479+03:00",
-      "phone": "+79217777777",
-      "role": "user",
-      "first_name":"Сергей",
-      "last_name": "Стародубцев",
-      "is_active": true
-    }
-  },
-  {
-    "model": "users.user",
-    "pk": 5,
-    "fields": {
-      "email": "admin@skypro.ru",
-      "password": "pbkdf2_sha256$260000$3bo3p1RBL9USUYt4njQGst$VABz0+ssAtcd6WS4s8Uf55iOlu0vLcyb9mAOPwfc9nU=",
-      "last_login": "2022-02-20 13:34:16.332479+03:00",
-      "phone": "+79217777777",
-      "role": "admin",
-      "first_name": "Админ",
-      "last_name": "Петров",
-      "is_active": true
-    }
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$DXU3gNwoZM5CKU5DPCNFEO$DDz7pYbo1RnNCnUYQ7/+7eRGkNb2jFs/7ZvntUJfvHk=",
+    "last_login": null,
+    "first_name": "user_1",
+    "last_name": "user_1",
+    "phone": "+79999999999",
+    "email": "1@yandex.ru",
+    "role": "user",
+    "image": "users/avatar_default.jpeg",
+    "is_active": true
   }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$jE9YFeyADsH4675Tp18VdD$7Lm+45/QYDjNlsdLJMj1i4VfhXJTPZKYDX195blxG/w=",
+    "last_login": null,
+    "first_name": "user_2",
+    "last_name": "user_2",
+    "phone": "+79999999999",
+    "email": "2@yandex.ru",
+    "role": "user",
+    "image": "users/avatar_default.jpeg",
+    "is_active": true
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$D9cVaSfCrfZ6rzRf7vnoSV$E7N4GG6iNzTrgM5GxM2bRaH3rAlXeSIqYFai2DhBeeU=",
+    "last_login": "2023-12-25T20:14:48.202Z",
+    "first_name": "admin",
+    "last_name": "adminov",
+    "phone": "+79999999999",
+    "email": "albert.minnibaeff@yandex.ru",
+    "role": "admin",
+    "image": "users/avatar_default.jpeg",
+    "is_active": true
+  }
+}
 ]

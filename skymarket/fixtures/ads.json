@@ -1,0 +1,82 @@
+[
+{
+  "model": "ads.ad",
+  "pk": 7,
+  "fields": {
+    "title": "Продам телевизор",
+    "price": 1000,
+    "description": "В хорошем состоянии",
+    "author": 1,
+    "created_at": "2023-12-25T20:20:06.440Z",
+    "image": ""
+  }
+},
+{
+  "model": "ads.ad",
+  "pk": 8,
+  "fields": {
+    "title": "Продам холодильник Samaung 10",
+    "price": 5000,
+    "description": "В хорошем состоянии",
+    "author": 1,
+    "created_at": "2023-12-25T20:21:04.521Z",
+    "image": ""
+  }
+},
+{
+  "model": "ads.ad",
+  "pk": 9,
+  "fields": {
+    "title": "Продам автомобиль",
+    "price": 50000,
+    "description": "В хорошем состоянии",
+    "author": 2,
+    "created_at": "2023-12-25T20:23:08.550Z",
+    "image": ""
+  }
+},
+{
+  "model": "ads.ad",
+  "pk": 10,
+  "fields": {
+    "title": "Продам гараж",
+    "price": 30000,
+    "description": "В хорошем состоянии",
+    "author": 2,
+    "created_at": "2023-12-25T20:23:32.803Z",
+    "image": ""
+  }
+},
+{
+  "model": "ads.ad",
+  "pk": 11,
+  "fields": {
+    "title": "Продам велосипед",
+    "price": 2000,
+    "description": "В хорошем состоянии",
+    "author": 3,
+    "created_at": "2023-12-25T20:24:28.456Z",
+    "image": ""
+  }
+},
+{
+  "model": "ads.comment",
+  "pk": 2,
+  "fields": {
+    "text": "Продавец не обманул",
+    "author": 2,
+    "ad": 7,
+    "created_at": "2023-12-25T20:35:09.778Z"
+  }
+},
+{
+  "model": "ads.comment",
+  "pk": 3,
+  "fields": {
+    "text": "Хороший товар",
+    "author": 1,
+    "ad": 9,
+    "created_at": "2023-12-25T20:36:44.911Z"
+  }
+}
+]
